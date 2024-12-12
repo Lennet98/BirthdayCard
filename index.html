@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Birthday">
+	  <meta name="keywords" content="Birthday">
+  	<meta name="author" content="Lennet">
+    <title>Shawn BB Happy Birthday</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="img/favicon.png">
+  </head>
+  <body>
+
+    <div class="container">  
+<div class="valentines">
+  <div class="envelope"></div>
+  <div class="front"></div>
+  <div class="card">
+  <div class="text">Happy Birthday Shawn BB 🎂 </br> Thank you for filling my life with joy. </br> I love you </div>
+  <div class="heart"</div>
+  </div>
+  <div class="hearts">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+  </div>
+</div>
+</div>
+<div class="shadow"></div>
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script>
+          $(document).ready(function () {
+    $('.container').mouseenter(function () {
+        $('.card').stop().animate({
+            top: '-90px'
+        }, 'slow');
+    }).mouseleave(function () {
+        $('.card').stop().animate({
+            top: 0
+        }, 'slow');
+    });
+});
+    </script>
+  </body>
+</html>
